@@ -89,7 +89,7 @@
         <table class="sig-root" cellpadding="0" cellspacing="0" style="font-family:Arial,sans-serif;">
           <tr>
             <td style="padding-right:12px;">
-              <img src="${window.location.origin}/logo.jpg" alt="SlimLine Openings" style="width:110px;">
+              <img src="${new URL('logo.jpg', document.baseURI).href}" alt="SlimLine Openings" style="width:110px;">
             </td>
             <td style="border-left:2px solid #d6b774;padding-left:12px;">
               <div style="font-size:15px;font-weight:bold;color:#111827;">${name}</div>
@@ -111,4 +111,5 @@
   </script>
 </body>
 </html>
+
 
